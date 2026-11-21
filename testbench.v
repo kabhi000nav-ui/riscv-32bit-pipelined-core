@@ -1,5 +1,3 @@
-
-
 module tb_pc;
 
 	reg clk , Stall_F ;
@@ -34,7 +32,7 @@ module tb_pc;
 			if(expectation != pc_current) begin
 				error = error + 1 ;
 			    if(error <= 1)
-					$display("FAIL: expected %0d got %0d", expectation,                                   pc_current);
+					$display("FAIL: expected %0d got %0d", expectation , pc_current);
             end
         end
         for(i = 0 ; i < 10000 ; i = i + 1 ) begin
@@ -48,7 +46,7 @@ module tb_pc;
 			if(expectation != pc_current) begin
 				error = error + 1 ;
 			    if(error <= 1)
-                    $display("FAIL: expected %0d got %0d", expectation,                                   pc_current);
+					$display("FAIL: expected %0d got %0d", expectation , pc_current);
             end
         end
         
