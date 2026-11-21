@@ -5,13 +5,13 @@ Data forwarding, load-use stalls and branch/jump flushing are handled by a separ
 
 ## Datapath
 
-![Datapath](docs/datapath.png)
+![Datapath](docs/Datapath.png)
 
 *Red = data, blue = control, green = hazard unit, orange = pipeline registers and clock.*
 
 ## Vivado Schematic
 
-![Vivado Schematic](docs/vivado_schematic.png)
+![Vivado Schematic](docs/Vivado_Schematic.png)
 
 ## At a Glance
 
